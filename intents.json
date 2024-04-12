@@ -1,0 +1,145 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "use",
+      "patterns": [
+        "What is FusionX",
+        "What do you do",
+        "What can i do with FusionX",
+        "What is your purpose",
+        "What is the us of this website",
+        "What is FusionX used for",
+        "What is the use of this website"
+      ],
+      "responses": [
+        "FusionX is an e-commerce website builder that allows you to create your online stores easily.",
+        "FusionX is an e-commerce website builder that makes it simple for you to establish your virtual stores.",
+        "FusionX is a website builder for e-commerce that makes it simple to develop online storefronts.",
+        "You may quickly develop your online stores with FusionX, an e-commerce website builder.",
+        "FusionX is an e-commerce website builder that makes it simple for you to establish your online stores."
+      ]
+    },
+    {
+      "tag": "categories",
+      "patterns": [
+        "What are the categories of websites i can make",
+        "What type of websites do you build",
+        "Which are the website categories",
+        "What are the categories of products i can sell",
+        "What are the types of website i can create with FusionX"
+      ],
+      "responses": [
+        "The categories of websites include Clothing, Health, Food, Electronics, Grocery and other categories also.",
+        "You can create  Clothing, Health, Food, Electronics, Grocery and other category related websites.",
+        "The website categories are Clothing, Health, Food, Electronics, Grocery and others.",
+        "The categories include Clothing, Health, Food, Electronics, Grocery and others.",
+        "The types of websites include Clothing, Health, Food, Electronics, Grocery and others."
+      ]
+    },
+    {
+      "tag": "customize",
+      "patterns": [
+        "Can i customize the theme of my website",
+        "What are the customization options that  you offer",
+        "How can i customize my website",
+        "What are the customization options available"
+      ],
+      "responses": [
+        "Yes you can customize the color and font of your website",
+        "Customization of color and font is possible",
+        "There is tool provided to customize the color and font of your website",
+        "After choosing a theme, you can customize the color and font of the selected theme"
+      ]
+    },
+    {
+      "tag": "working",
+      "patterns": [
+        "How can i create my store using your website",
+        "How to create my store",
+        "How does FusionX works",
+        "How does your website work",
+        "What are the steps to create my store"
+      ],
+      "responses": [
+        "First you have to create an account. Then add the store details and choose a theme. Add the product details and that's it, your online store is ready.",
+        "You must first register for an account. After that, select a theme and add the store's details. Once you add the product details, your online store is prepared.",
+        "You need to register for an account first. Next, select a theme and include the store's specifics. Your web store is now ready just need to add the product data.",
+        "Making an account is the first step. Next, pick a theme and include the store's information. Your online store will be ready once you add the product details.",
+        "To begin with, you must register for an account. Next, select a theme and include the store's information. Your web store is ready only need to add the product data."
+      ]
+    },
+    {
+      "tag": "store",
+      "patterns": [
+        "What all details can I input for store",
+        "What all details should I input for store",
+        "What are the store details required",
+        "What are the data about store that i need to input"
+      ],
+      "responses": [
+        "You have to add the store name, description, logo, address,  email-id, phone number etc.",
+        "The store name, description, logo, address, phone number, email address, and so on must be added.",
+        "Include the store name, description, logo, address, phone number, email address, and so on.",
+        "Name, description, logo, address, phone number, email address, and other details must be added."
+      ]
+    },
+    {
+      "tag": "product",
+      "patterns": [
+        "What all details can I input for products",
+        "What all details should I input for store",
+        "What are the store details required",
+        "What are the data about store that i need to input"
+      ],
+      "responses": [
+        "You have to add the store name, description, logo, address,  email-id, phone number etc.",
+        "The store name, description, logo, address, phone number, email address, and so on must be added.",
+        "Include the store name, description, logo, address, phone number, email address, and so on.",
+        "Name, description, logo, address, phone number, email address, and other details must be added."
+      ]
+    }
+  ]
+}
