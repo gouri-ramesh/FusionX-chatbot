@@ -8,7 +8,7 @@ body {
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
     font-size: 100%;
-    background: #F1F1F1;
+    background: transparent;
 }
 
 *, html {
@@ -32,6 +32,9 @@ body {
     display: flex;
     flex-direction: column;
     background: #eee;
+    position: absolute;
+    bottom: 0;
+    right: 0;
     width: 300px;
     height: 350px;
     z-index: -123456;
@@ -41,10 +44,12 @@ body {
 
 /* CONTENT ISOPEN */
 .chatbox--active {
+    position: absolute;
+    bottom: 0;
+    right: 0;
     transform: translateY(-40px);
     z-index: 123456;
     opacity: 1;
-
 }
 
 /* BUTTON */
